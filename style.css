@@ -4,7 +4,7 @@
 }
 
 /* header section style start */
-header{
+header {
   background: rgba(255, 144, 14, 0.1);
   margin-bottom: 85px;
 }
@@ -14,7 +14,7 @@ nav {
   padding: 63px 100px 0 100px;
   margin-bottom: 100px;
 }
-nav h3{
+nav h3 {
   color: #131313;
   font-size: 45px;
   font-weight: 700px;
@@ -33,18 +33,15 @@ nav ul li a {
   font-size: 18px;
   font-weight: 500px;
 }
-.header-container{
-display:flex;
-flex-direction: column;
-align-items: center;
-
-  
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header-main-content {
   width: 662px;
   text-align: center;
   margin-bottom: 50px;
-  
 }
 .header-title {
   font-weight: 700;
@@ -54,17 +51,17 @@ align-items: center;
   color: #131313;
   margin-bottom: 10px;
 }
-.header-description{
+.header-description {
   margin-bottom: 32px;
 }
-.banner{
+.banner {
   display: flex;
   justify-content: center;
   padding-bottom: 45px;
 }
 
-.banner-image img{
-  width:1150px;
+.banner-image img {
+  width: 1150px;
 }
 /* header section style end */
 
@@ -177,7 +174,7 @@ align-items: center;
   width: 800px;
 }
 .love-image img {
-  width:600px;
+  width: 600px;
   height: 982px;
 }
 .experience {
@@ -297,21 +294,20 @@ footer {
 }
 /* footer section style end */
 
-
 /* media query start */
 
 @media screen and (max-width: 688px) {
-  nav{
+  nav {
     flex-direction: column;
   }
-  nav ul{
+  nav ul {
     flex-direction: column;
   }
-  .banner img{
+  .banner img {
     width: 100%;
   }
   .header-main-content {
-    width:100%;
+    width: 100%;
   }
   .feature {
     display: flex;
@@ -323,7 +319,45 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     gap: 14px;
   }
-  .feature-content{
+  .feature-content {
     width: 100%;
   }
+
+  .love-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 54px;
+    width: 100%;
+    margin-top: 130px;
+  }
+  .love-blog{
+    width: 100%;
+  }
+  .love-image img {
+    width: 100%;
+  }
+  .experience {
+    margin-bottom: 1000px;
+    background: #ff900e;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    padding-top: 55px;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+  }
+.sponsport-icon-container {
+  flex-direction: column;
+
+}
+.sponsport-text-container {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+footer{
+  width: 100%;
+  margin-left: 200px;
+}
 }
