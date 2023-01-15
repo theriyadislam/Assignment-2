@@ -301,5 +301,29 @@ footer {
 /* media query start */
 
 @media screen and (max-width: 688px) {
-  
+  nav{
+    flex-direction: column;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .header-main-content {
+    width:100%;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .feature-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 14px;
+  }
+  .feature-content{
+    width: 100%;
+  }
 }
