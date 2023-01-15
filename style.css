@@ -11,7 +11,7 @@ header{
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 63px 200px 0 200px;
+  padding: 63px 100px 0 100px;
   margin-bottom: 100px;
 }
 nav h3{
@@ -211,9 +211,13 @@ align-items: center;
 }
 .some-fact-title {
   margin-bottom: 24px;
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700px;
 }
 .some-fact-description {
   margin-bottom: 100px;
+  width: 542px;
 }
 .award-container {
   display: flex;
@@ -292,3 +296,10 @@ footer {
   margin-bottom: 254px;
 }
 /* footer section style end */
+
+
+/* media query start */
+
+@media screen and (max-width: 688px) {
+  
+}
